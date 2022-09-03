@@ -1,7 +1,7 @@
 version: '3.6'
 services:
   api:
-#    image: 983515929/gabriel_api
+    image: vitoalmeida/m2a_backend
     build:
       context: .
     command: "/app/start.sh"
