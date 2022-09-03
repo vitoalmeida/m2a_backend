@@ -1,6 +1,6 @@
 version: '3.6'
 services:
-  api:
+  web:
     image: vitoalmeida/m2a_backend
     build:
       context: .
