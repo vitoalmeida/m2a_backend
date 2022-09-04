@@ -24,7 +24,8 @@ SECRET_KEY = 'django-insecure-#3@$-ii#kje0zs!fhu#8@sur-puhbt-yzcy-!9kcjr892-(+43
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1',
+                 'https://blooming-beach-22237.herokuapp.com/']
 CORS_ALLOW_ALL_ORIGINS = True
 
 REST_FRAMEWORK = {
